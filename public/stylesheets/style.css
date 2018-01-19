@@ -1,0 +1,45 @@
+body {
+  margin: 20px;
+}
+#add-task {
+  border-radius: 25px;
+  color: white;
+  background-color: green;
+  float: right;
+  font-size: 2em;
+  height: 50px;
+  width: 50px;
+}
+.add-task {
+  /* border: 1px solid lightgrey; */
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  width: 500px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.space-around {
+  justify-content: space-around;
+}
+.task {
+  border-bottom: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  padding: 10px;
+  width: 400px;
+}
+.tasks {
+  border-top: 1px solid lightgrey;
+  width: 422px;
+}
+
+input[type=checkbox]:checked ~ div {
+  color: #f00;
+  background-color: grey;
+}

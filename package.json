@@ -8,9 +8,10 @@
   },
   "scripts": {
     "test": "export NODE_ENV='test' && mocha",
-    "start": "nodemon app.js",
+    "start": "nodemon bin/dev",
     "db:create": "createdb todolist && psql todolist < db/schema.sql",
-    "db:reset": "dropdb todolist && npm run db:create"
+    "db:reset": "dropdb todolist && npm run db:create",
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,12 @@
   },
   "homepage": "https://github.com/kelceywilson/to-do-list#readme",
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
+    "morgan": "^1.9.0",
     "pg-promise": "^7.3.3",
     "pug": "^2.0.0-rc.4"
   },
@@ -35,6 +41,10 @@
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
     "mocha": "^4.1.0",
-    "nodemon": "^1.14.10"
+    "nodemon": "^1.14.10",
+    "pg-monitor": "^0.8.3"
+  },
+  "babel": {
+    "presets": ["env"]
   }
 }

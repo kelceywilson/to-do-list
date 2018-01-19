@@ -1,8 +1,8 @@
 const express = require('express')
-// const bodyParser = require('body-parser')
+const bodyParser = require('body-parser')
 
 const routes = require('./routes/routes.js')
-// const logger = require('morgan')
+const logger = require('morgan')
 
 const app = express()
 

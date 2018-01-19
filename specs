@@ -1,30 +1,32 @@
+FEEDBACK
+What is the intent of the Skills section?
+For example, the To Do list Skills section includes
+  - can use fetch API to make HTTP requests
+  - can use ES6 and use babel-node
+  - can build a RESTful API using express
+  But these aren't necessarily specified in specs -- babel & ES6 are in Stretch....
+  (similar issues in Skills v. Specs in previous modules)
+  - Can describe the general programming term SOLID
+    But there's no recommended reference/video for this lengthy and somewhat esoteric group of principles (e.g. L for Liskov Substitution Principle; D for Dependency Inversion Principle), or at least unhelpfully named principles that negate the helpfulness of having a mnemonic device (SOLID) for a group of principles.
+    - I googled & found the original 16-page article written in 2000 that introduced the principles using C++ examples...
+    - A beginner article seems more appropriate (https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
+      - but it's not vetted by LG
+    Is there a lecture on it?  The module should link to it.
+      - Perhaps link to channel, and Learners should use thumbs up/down & comments to help future learners choose the appropriate video for their needs
 
-
- Can use the fetch API to make HTTP requests Can use ES6 and use babel-node to transpile the code Can describe the general programming term Minimum Viable Product or MVP Can determine which HTTP application feature requirements are required to build an MVP of said feature Can build a RESTful API using Express Can describe the general programming term SOLID Can describe the general programming term DRY
-General
-Code uses a linter and there are no linting errors.
-Repository includes a README file with basic installation and setup.
-All dependencies are properly declared in package.json.
-All major features are added via pull requests with a clear description and concise commit messages.
-Every pull request has been reviewed by at least one other person.
-The artifact produced is properly licensed, preferably with the MIT license.
-Functionality
-Users can create to do list items.
-Users can delete unwanted to do list items.
 Users can check items off as completed.
-Users can edit the text on existing to do list items.
 UI renders to do items differently when they are completed (using a checkbox or some other indicator).
 When an error occurs, the user is notified with modal message.*
-Backend uses Node.js and Express.
-App persists to do list items in a database.
-Testing
-There are thorough tests for all functionality involved in interacting with the database.
-There are tests for creating to do list items.
-There are tests for deleting to do list items.
-There are tests for completing to do list items.
-There are tests for editing to do list items.
-All tests are passing.
 * A quick and easy way to do this is to use the alert() function.
+
+Can use ES6 and use babel-node to transpile the code
+Can describe the general programming term Minimum Viable Product or MVP
+Can determine which HTTP application feature requirements are required to build an MVP of said feature
+Can build a RESTful API using Express
+
+General
+Repository includes a README file with basic installation and setup.
+
 Stretch
 App is deployed on Heroku.
 Users can rearrange to do list items.

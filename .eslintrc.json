@@ -21,6 +21,7 @@
     "space-before-blocks": 0,
     "space-before-function-paren": 0,
     "spaced-comment": 0,
-    "object-curly-spacing": 0
+    "object-curly-spacing": 0,
+    "object-curly-newline": 0
   }
 }
