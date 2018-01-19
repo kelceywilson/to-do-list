@@ -45,6 +45,8 @@
     "pg-monitor": "^0.8.3"
   },
   "babel": {
-    "presets": ["env"]
+    "presets": [
+      "env"
+    ]
   }
 }

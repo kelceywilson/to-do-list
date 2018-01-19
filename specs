@@ -14,15 +14,9 @@ For example, the To Do list Skills section includes
     Is there a lecture on it?  The module should link to it.
       - Perhaps link to channel, and Learners should use thumbs up/down & comments to help future learners choose the appropriate video for their needs
 
-Users can check items off as completed.
-UI renders to do items differently when they are completed (using a checkbox or some other indicator).
-When an error occurs, the user is notified with modal message.*
-* A quick and easy way to do this is to use the alert() function.
+
 
 Can use ES6 and use babel-node to transpile the code
-Can describe the general programming term Minimum Viable Product or MVP
-Can determine which HTTP application feature requirements are required to build an MVP of said feature
-Can build a RESTful API using Express
 
 General
 Repository includes a README file with basic installation and setup.
