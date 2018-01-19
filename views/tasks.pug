@@ -7,7 +7,7 @@ block main
       .tasks
         each task in tasks
           .task
-            input(data-id=`${task.id}` class='checkbox' type='checkbox' name='completed')
+            input(data-id=task.id class='checkbox' type='checkbox' name='completed' checked=task.completed)
             input(id=task.id type='text' value=task.task)
             input(type='text' value=task.due)
             .row.space-around
